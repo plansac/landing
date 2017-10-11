@@ -54,8 +54,6 @@ img{
   border-radius: 12px;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
   margin: 50px;
-}
-#banner h1 {
   text-align: center;
 }
 #footer{
@@ -63,6 +61,7 @@ img{
   color: white;
   padding-left: 30px;
   padding-right: 30px;
+  text-align: center;
 }
 #footer a {
   color: lightgrey;
