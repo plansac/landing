@@ -8,11 +8,11 @@ body{
 }
 h1{
   font-family: Merriweather;
-  color: #272637;
+  color: white;
   font-weight: lighter;
   font-size: 50px;
   font-variant: small-caps;
-  text-shadow: 2px 2px 1px rgba(245,245,245,0.5);
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
 }
 h2 {
   font-family: Courier;
@@ -48,13 +48,13 @@ img{
 #banner{
   padding: 15px;
   padding-left: 50px;
-  border-color: black;
-  border: 3px;
-  background-color: #007ea7;
+  border: 5px solid black;
+  background-image: url("images/canape.jpg");
   border-radius: 12px;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
   margin: 50px;
   text-align: center;
+  color: white;
 }
 #footer{
   background-color: rgba(0,0,0,0.5);
