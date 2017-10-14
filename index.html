@@ -8,88 +8,121 @@
     <link href='style.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
+
   <body>
 
-    <div id="banner">
-    <h1>How to kitsch ?</h1>
-    <p>Un programme simple et efficace en 4 points chocs !</p>
-    <p>Les plus grands experts valident <br>
-    Seulement 19.99€/mois sans engagements ! Profitez-en dès maintenant.</p>
-    <p>
-      <a href="http://eelslap.com/" target='_blank' class="btn btn-danger">Click here to slap a face</a>
-    </p></div>
+    <div class="row" id="banner">
+      <div class="col-md-3">
+        <img src="images/bichette2.png" alt="picture description" height="230">
+      </div>
+
+      <div class="col-md-6">
+        <h1>Have fun and conquer space</h1>
+      <p>Un programme simple et efficace en 4 points chocs !</p>
+      <p>Les plus grands experts valident <br>
+        Seulement 19.99€/mois sans engagements ! Profitez-en dès maintenant.</p>
+      <p><a href="http://eelslap.com/" target='_blank' class="btn btn-danger">Click here to slap a face</a>
+      </p>
+      </div>
+
+      <div class="col-md-3 hidden-xs-down">
+        <img src="images/bichette2.png" alt="picture description" height="230">
+      </div>
+
+    </div>
     
 
-  <div class="container">
+    <div class="search">
+      <form action="/search" method="get" class="form-inline">
+        <input name="query" placeholder="Search dribbles..." class="form-control" type="text">
+        <input value="Search" class="btn btn-danger" type="submit">
+      </form>
+    </div>
+    
+    <div id="content">
+
+      <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="icone">
+            <img src="images/briefcase.png" alt="picture description" width="100">
+            <h2>Travail</h2>
+            <p>J'aimerai bien avoir une petite mallette comme celle-ci.</p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="icone">
+            <img src="images/diamond.png" alt="picture description" width="100">
+            <h2>Money money</h2>
+            <p>Ne représente pas mon compte en banque actuellement</p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="icone">
+            <img src="images/heart.png" alt="picture description" width="100">
+            <h2>Awesome</h2>
+            <p>C'est ce que tout le monde dit de moi.</p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="icone">
+            <img src="images/laptop.png" alt="picture description" width="100">
+            <h2>Cinéma</h2>
+            <p>J'adooore regarder des films. C'est très bien comme activité.</p>
+          </div>
+        </div>
+      
+      </div>
+    
+    </div>
 
     <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2" id="contact">
+        
+        <div id="wufoo-z1poknyo0wth1ao">
+          Fill out my <a href="https://plansac.wufoo.com/forms/z1poknyo0wth1ao">online form</a>.
+        </div>
 
-      <div class="icone"><img src="images/briefcase.png" alt="picture description" width="100">
-      <h2>Travail</h2>
-      <p>J'aimerai bien avoir une petite mallette comme celle-ci.</p></div>
+        <script type="text/javascript">
+          var z1poknyo0wth1ao;(function(d, t) {
+          var s = d.createElement(t), options = {
+          'userName':'plansac',
+          'formHash':'z1poknyo0wth1ao',
+          'autoResize':true,
+          'height':'685',
+          'async':true,
+          'host':'wufoo.com',
+          'header':'show',
+          'ssl':true};
+          s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+          s.onload = s.onreadystatechange = function() {
+          var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+          try { z1poknyo0wth1ao = new WufooForm();z1poknyo0wth1ao.initialize(options);z1poknyo0wth1ao.display(); } catch (e) {}};
+          var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+          })(document, 'script');
+        </script>
 
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      
-      <div class="icone"><img src="images/diamond.png" alt="picture description" width="100">
-      <h2>Money money</h2>
-      <p>Ne représente pas mon compte en banque actuellement</p></div>
-
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      
-      <div class="icone"><img src="images/heart.png" alt="picture description" width="100">
-      <h2>Awesome</h2>
-      <p>C'est ce que tout le monde dit de moi.</p></div>
-
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      
-      <div class="icone"><img src="images/laptop.png" alt="picture description" width="100">
-      <h2>Cinéma</h2>
-      <p>J'adooore regarder des films. C'est très bien comme activité.</p></div>
-
-    </div>
-  </div>
-</div>
-
-  </div>
-
-
-  <div class="col-xs-12 col-sm-8 col-sm-offset-2" id="contact">
-      
-            <div id="wufoo-z1poknyo0wth1ao">
-      Fill out my <a href="https://plansac.wufoo.com/forms/z1poknyo0wth1ao">online form</a>.
       </div>
-      <script type="text/javascript">var z1poknyo0wth1ao;(function(d, t) {
-      var s = d.createElement(t), options = {
-      'userName':'plansac',
-      'formHash':'z1poknyo0wth1ao',
-      'autoResize':true,
-      'height':'685',
-      'async':true,
-      'host':'wufoo.com',
-      'header':'show',
-      'ssl':true};
-      s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-      s.onload = s.onreadystatechange = function() {
-      var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-      try { z1poknyo0wth1ao = new WufooForm();z1poknyo0wth1ao.initialize(options);z1poknyo0wth1ao.display(); } catch (e) {}};
-      var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-      })(document, 'script');</script>
+    </div>
+    </div>  
+    
+    
 
+    <div id="footer">
+      <p>This is a playground landing ©Le Wagon 
+        <br>
 
-
-  </div>
-
-    <div id="footer"><p>This is a playground landing ©Le Wagon 
-    <br>
-
-    <a href="#"><i class="fa fa-youtube"></i></a>
-    <a href="https://www.facebook.com/pauline.lansac.5" target='_blank'><i class="fa fa-facebook"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="https://www.linkedin.com/in/pauline-lansac-758b91135/" target='_blank'><i class="fa fa-linkedin"></i></a></p></div>
+        <a href="https://www.instagram.com/ppointfinal/?hl=fr" target='_blank'><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/pauline.lansac.5" target='_blank'><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/PPointfinal" target='_blank'><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/pauline-lansac-758b91135/" target='_blank'><i class="fa fa-linkedin"></i></a>
+      </p>
+    </div>
 
   </body>
 
